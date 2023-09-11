@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin: 0 300px;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: beige;
+}
+.quote{
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.person{
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+#new-btn{
+    margin-top: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#new-btn:active{
+    background-color: rgb(76, 74, 74);
+    color: aliceblue;
+}
